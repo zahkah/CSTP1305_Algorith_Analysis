@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortable Table</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <button onclick="sortTable()">Sort</button>
+
+    <table id="myTable">
+        <thead>
+            <tr>
+                <th onclick="sortTableByColumn(0)">Name</th>
+                <th onclick="sortTableByColumn(1)">Price</th>
+                <th>Description</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Table rows will be dynamically inserted here -->
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
