@@ -20,7 +20,6 @@ console.log(findMissingNumber([2, 3, 1, 5], 5));  // Expected output: 4
 console.log(findMissingNumber([1, 2, 3, 4, 5], 6));  // Expected output: 6
 
 // Question 2: Two Sum Problem
-// Solution: Hash Map
 // Time Complexity: O(n)
 function twoSum(nums, target) {
     const map = {};
@@ -38,7 +37,6 @@ console.log(twoSum([20, 1, 5, 2, 11], 3));  // Expected output: [1, 3]
 console.log(twoSum([3, 2, 4], 6));  // Expected output: [1, 2]
 
 // Question 3: Generate All Permutations of a String
-// Solution: Recursive Permutation Generation
 // Time Complexity: O(n!)
 function generatePermutation(str) {
     if (str.length < 2) return [str];
@@ -77,7 +75,6 @@ function checkIfCycleExists(head) {
 }
 
 // Question 5: Valid Parentheses
-// Solution: Stack
 // Time Complexity: O(n)
 function checkIfValidParenthesis(str) {
     const stack = [];
